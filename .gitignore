@@ -1,0 +1,29 @@
+
+---
+
+## 🛡️ `.gitignore` para `code-practice/`
+
+Guarda esto en `code-practice/.gitignore`
+
+```gitignore
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS / Windows system files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Logs or backups
+*.log
+*.bak
+*~
