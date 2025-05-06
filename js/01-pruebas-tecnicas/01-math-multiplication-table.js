@@ -3,6 +3,9 @@
 
 // Función que genera una tabla de multiplicar como un array de strings
 const multiplicationTable = (number) => {
+  let title = `# Tabla del ${number} #`;
+  console.log(title);
+
   for (let i = 1; i <= 10; i++) {
     const result = i * number;
     console.log(`${number} x ${i} = ${result}`);
@@ -10,6 +13,19 @@ const multiplicationTable = (number) => {
 };
 
 multiplicationTable(2);
+
+// Solución del curso
+function tablaDeMultiplicar(numero) {
+  let resultado = `# Tabla del ${numero} #\n`;
+  for (let i = 1; i <= 10; i++) {
+    let multiplicacion = i * numero;
+    resultado += `${i} x ${numero} = ${multiplicacion} \n`;
+  }
+
+  return resultado;
+}
+
+console.log(tablaDeMultiplicar(5));
 
 // Genera una tabla de multiplicar hasta un límite dado (por defecto 10) - Propuesta de chatGPT
 const generateMultiplicationTable = (number, limit = 10) => {
