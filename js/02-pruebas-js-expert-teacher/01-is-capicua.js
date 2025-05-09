@@ -6,7 +6,7 @@ Escribe una función en JavaScript llamada isCapicua que reciba un número enter
 const isCapicua = (number) => {
   const strNum = number.toString();
   const reversed = strNum.split("").reverse().join("");
-  return strNum === reversed;
+  return strNum === reversed; // true si son iguales
 };
 
 console.log(isCapicua(121)); // true

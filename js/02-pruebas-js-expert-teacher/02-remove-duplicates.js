@@ -14,7 +14,7 @@ const removeDuplicates = (arr) => {
     }
   }
 
-  return noDuplicates;
+  return noDuplicates; // Retornamos el nuevo array sin duplicados
 };
 
 console.log(removeDuplicates([1, 2, 3, 2, 4, 1, 5])); // [1, 2, 3, 4, 5]
