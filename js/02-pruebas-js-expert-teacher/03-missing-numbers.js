@@ -6,12 +6,13 @@ Escribe una función llamada missingNumbers que reciba un array de números ente
 
 const missingNumbers = (arr) => {
   const missNumbers = [];
-  const lastNumbers = arr[arr.length - 1];
-  const firstNumber = arr[0];
+  const lastNumbers = arr[arr.length - 1]; //el último número del array
+  const firstNumber = arr[0]; // el primer número del array
 
   for (let i = firstNumber; i <= lastNumbers; i++) {
     if (!arr.includes(i)) {
-      missNumbers.push(i);
+      //si el número no está en el array
+      missNumbers.push(i); // lo añadimos al array de números faltantes
     }
   }
 
