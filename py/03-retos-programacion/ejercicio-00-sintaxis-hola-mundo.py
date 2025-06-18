@@ -19,8 +19,6 @@ La convención principal es usar comillas dobles para 'docstrings'.
 '''
 
 # Variables en Python
-# Python es un lenguaje de tipado dinámico, lo que significa que no necesitas
-# declarar explícitamente el tipo de una variable. El intérprete lo infiere.
 my_variable = "Soy una variable"
 my_other_variable = 10 # Las variables pueden cambiar su tipo durante la ejecución.
 
@@ -31,7 +29,6 @@ my_other_variable = 10 # Las variables pueden cambiar su tipo durante la ejecuci
 MY_CONSTANT = "Soy una constante (por convención)"
 
 # Tipos de datos primitivos (Built-in Types)
-# Estos son los tipos fundamentales que Python soporta de forma nativa.
 
 # Tipo de dato 'str' (cadena de texto)
 my_string = "Soy un string"
@@ -46,7 +43,6 @@ my_float = 1.0
 my_scientific_float = 1.2e-3 # Notación científica
 
 # Tipo de dato 'bool' (booleano)
-# Representa valores de verdad: Verdadero o Falso.
 my_bool_true = True
 my_bool_false = False
 
@@ -60,7 +56,6 @@ my_none_value = None
 my_big_number = 1234567890123456789012345678901234567890
 
 # Imprimir mensajes y variables en la consola
-# La función 'print()' se usa para mostrar información en la salida estándar.
 print("¡Hola, Python!")
 
 # Concatenación de cadenas y uso de f-strings (una forma moderna y recomendada)
@@ -68,7 +63,6 @@ print("Mi variable es: " + my_variable) # Concatenación básica
 print(f"Mi variable es: {my_variable}") # Uso de f-string (Python 3.6+)
 
 # Imprimir el tipo de dato de las variables
-# La función 'type()' devuelve el tipo de un objeto.
 print(f"El tipo de 'my_string' es: {type(my_string)}")
 print(f"El tipo de 'my_int' es: {type(my_int)}")
 print(f"El tipo de 'my_float' es: {type(my_float)}")
