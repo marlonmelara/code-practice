@@ -3,7 +3,7 @@
 
 // Función que genera una tabla de multiplicar como un array de strings
 const multiplicationTable = (number) => {
-  let title = `# Tabla del ${number} #`;
+  let title = `# Tabla del ${number}`;
   console.log(title);
 
   for (let i = 1; i <= 10; i++) {

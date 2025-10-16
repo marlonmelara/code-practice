@@ -1,76 +1,68 @@
-# EJERCICIO 00-SINTAXIS, VARIABLES, TIPOS DE DATOS Y HOLA MUNDO
+# EJERCICIO 00 - SINTAXIS, VARIABLES, TIPOS DE DATOS Y HOLA MUNDO
 
-# Documentación oficial del lenguaje Python: https://www.python.org/doc/
-# Aunque python.org es la página principal, la sección de 'doc' es donde se encuentra la documentación detallada.
+# Documentación oficial: https://www.python.org/doc/
 
-# Esto es un comentario de una sola línea en Python.
-# Puedes usarlo para añadir notas rápidas o deshabilitar temporalmente una línea de código.
+# Comentario de una línea
+# Se usa para notas rápidas o deshabilitar código temporalmente
 
 """
-Esto es un comentario de varias líneas (docstring) utilizando comillas dobles.
-Generalmente, los 'docstrings' se usan para documentar módulos, funciones,
-clases y métodos. Se pueden acceder en tiempo de ejecución.
+Comentario multilínea (docstring)
+Se usa para documentar módulos, funciones, clases y métodos
+Accesible en tiempo de ejecución
 """
 
-'''
-Esto es otro ejemplo de comentario de varias líneas (docstring) utilizando comillas simples.
-Funciona de la misma manera que las comillas dobles para este propósito.
-La convención principal es usar comillas dobles para 'docstrings'.
-'''
+"""
+También válido con comillas simples
+Convención: usar comillas dobles para docstrings
+"""
 
-# Variables en Python
+# VARIABLES
 my_variable = "Soy una variable"
-my_other_variable = 10 # Las variables pueden cambiar su tipo durante la ejecución.
+my_other_variable = 10  # Las variables pueden cambiar de tipo
 
-# Constantes en Python
-# Python no tiene un concepto de "constante" estricto como otros lenguajes.
-# Por convención, se usan mayúsculas para indicar que una variable debe
-# ser tratada como una constante y no modificarse.
-MY_CONSTANT = "Soy una constante (por convención)"
+# CONSTANTES (por convención, no hay constantes estrictas)
+MY_CONSTANT = "Soy una constante"
 
-# Tipos de datos primitivos (Built-in Types)
+# TIPOS DE DATOS PRIMITIVOS
 
-# Tipo de dato 'str' (cadena de texto)
+# String (cadena de texto)
 my_string = "Soy un string"
-my_other_string = 'También soy un string' # Las comillas simples o dobles son válidas.
+my_other_string = "También válido"  # Comillas simples o dobles
 
-# Tipo de dato 'int' (entero)
+# Integer (entero)
 my_int = 1
 my_negative_int = -5
 
-# Tipo de dato 'float' (número de punto flotante)
+# Float (punto flotante)
 my_float = 1.0
-my_scientific_float = 1.2e-3 # Notación científica
+my_scientific_float = 1.2e-3  # Notación científica
 
-# Tipo de dato 'bool' (booleano)
+# Boolean (booleano)
 my_bool_true = True
 my_bool_false = False
 
-# Tipo de dato 'NoneType' (Ninguno)
-# Representa la ausencia de valor. Es similar a 'null' en otros lenguajes.
+# NoneType (ausencia de valor)
 my_none_value = None
 
-# Números enteros grandes (arbitrary-precision integers)
-# Python maneja enteros de precisión arbitraria, lo que significa que
-# pueden ser tan grandes como la memoria del sistema lo permita.
+# Enteros de precisión arbitraria (limitados por memoria)
 my_big_number = 1234567890123456789012345678901234567890
 
-# Imprimir mensajes y variables en la consola
+# SALIDA POR CONSOLA
 print("¡Hola, Python!")
 
-# Concatenación de cadenas y uso de f-strings (una forma moderna y recomendada)
-print("Mi variable es: " + my_variable) # Concatenación básica
-print(f"Mi variable es: {my_variable}") # Uso de f-string (Python 3.6+)
+# Concatenación vs f-strings (recomendado desde Python 3.6+)
+print("Mi variable es: " + my_variable)
+print(f"Mi variable es: {my_variable}")
 
-# Imprimir el tipo de dato de las variables
-print(f"El tipo de 'my_string' es: {type(my_string)}")
-print(f"El tipo de 'my_int' es: {type(my_int)}")
-print(f"El tipo de 'my_float' es: {type(my_float)}")
-print(f"El tipo de 'my_bool_true' es: {type(my_bool_true)}")
-print(f"El tipo de 'my_none_value' es: {type(my_none_value)}")
-print(f"El tipo de 'my_big_number' es: {type(my_big_number)}")
+# Verificar tipos de datos
+print(f"Tipo de 'my_string': {type(my_string)}")
+print(f"Tipo de 'my_int': {type(my_int)}")
+print(f"Tipo de 'my_float': {type(my_float)}")
+print(f"Tipo de 'my_bool_true': {type(my_bool_true)}")
+print(f"Tipo de 'my_none_value': {type(my_none_value)}")
+print(f"Tipo de 'my_big_number': {type(my_big_number)}")
 
-# Operaciones básicas con variables
-print(f"Suma de enteros: {my_int + my_other_variable}")
-print(f"Multiplicación de flotantes: {my_float * my_scientific_float}")
-print(f"Negación de un booleano: {not my_bool_true}")
+# OPERACIONES BÁSICAS
+print(f"Suma: {my_int + my_other_variable}")
+print(f"Multiplicación: {my_float * my_scientific_float}")
+print(f"Negación booleana: {not my_bool_true}")

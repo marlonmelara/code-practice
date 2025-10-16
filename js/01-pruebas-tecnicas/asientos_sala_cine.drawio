@@ -1,0 +1,42 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.6">
+  <diagram name="Página-1" id="hySo2tLGD912Be9zUDPh">
+    <mxGraphModel dx="926" dy="443" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZJuZRrXr0vsj2xK_6Rtq-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZJuZRrXr0vsj2xK_6Rtq-1" target="ZJuZRrXr0vsj2xK_6Rtq-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJuZRrXr0vsj2xK_6Rtq-1" value="Inicio" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJuZRrXr0vsj2xK_6Rtq-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZJuZRrXr0vsj2xK_6Rtq-2" target="ZJuZRrXr0vsj2xK_6Rtq-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJuZRrXr0vsj2xK_6Rtq-2" value="Crear matriz&lt;div&gt;Fila / Asientos&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJuZRrXr0vsj2xK_6Rtq-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZJuZRrXr0vsj2xK_6Rtq-4" target="ZJuZRrXr0vsj2xK_6Rtq-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJuZRrXr0vsj2xK_6Rtq-8" value="Sí" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZJuZRrXr0vsj2xK_6Rtq-7">
+          <mxGeometry x="-0.1841" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZJuZRrXr0vsj2xK_6Rtq-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZJuZRrXr0vsj2xK_6Rtq-4" target="ZJuZRrXr0vsj2xK_6Rtq-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJuZRrXr0vsj2xK_6Rtq-4" value="¿Quiere ver&lt;div&gt;asientos disponibles?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="356" y="310" width="116" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJuZRrXr0vsj2xK_6Rtq-6" value="Mostrar matriz de asientos disponibles" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJuZRrXr0vsj2xK_6Rtq-9" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="335" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
