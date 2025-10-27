@@ -31,7 +31,7 @@ my_other_string = "También válido"  # Comillas simples o dobles
 
 # Integer (entero)
 my_int = 1
-my_negative_int = -5
+    my_negative_int = -5
 
 # Float (punto flotante)
 my_float = 1.0
