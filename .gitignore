@@ -1,11 +1,3 @@
-
----
-
-## 🛡️ `.gitignore` para `code-practice/`
-
-Guarda esto en `code-practice/.gitignore`
-
-```gitignore
 # Node.js
 node_modules/
 npm-debug.log*
